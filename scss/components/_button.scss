@@ -1,0 +1,27 @@
+.button-wrap_button{
+    border: 1px solid var(--title-color);
+    background: var(--background-color);
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 20px 48px;
+    transition: color 500ms ease-in-out, border-color 500ms ease-in-out;
+}
+
+.button-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    &__button{
+        border: 1px solid var(--title-color);
+        background: $background-color;
+        cursor: pointer;
+        margin: 0 auto;
+        padding: 20px 48px;
+        transition: color 500ms ease-in-out, border-color 500ms ease-in-out;
+    }
+
+    &:hover{
+       border: 1px solid color;
+    }
+}
