@@ -1,6 +1,5 @@
 .button-wrap_button{
-    border: 1px solid var(--title-color);
-    background: var(--background-color);
+    background: $background-color;
     cursor: pointer;
     margin: 0 auto;
     padding: 20px 48px;
@@ -13,7 +12,7 @@
     margin-top: 50px;
 
     &__button{
-        border: 1px solid var(--title-color);
+      
         background: $background-color;
         cursor: pointer;
         margin: 0 auto;

@@ -1,7 +1,7 @@
 .nav{
     word-spacing: 90px;
-    color: $navigatio-color;
     text-align: center;
+  
     &__list{
         display: flex;
         justify-content: space-between;
@@ -22,18 +22,12 @@
     text-align: center;
 }    
     .nav__link{
-        color: $navigatio-color;
         font-style: 14px;
         font-weight: 400;
         transition: color 250ms ease-in-out;
-        &:hover{
-            color: $hover-color;
-        }
     }
 
     @media screen and (min-width: 768px){
-        .nav__link{
-        }  
         
         .header{
              padding-bottom: 30px;
